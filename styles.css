@@ -1,0 +1,38 @@
+body {
+  background-color:aliceblue;
+}
+h1 {
+  font-size:50px;
+  font-weight: 900;
+}
+table {
+  border: 2px solid dodgerblue;
+  width: 650px;
+}
+
+th, tr, td {
+  border: 2px solid dodgerblue;
+}
+.container {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+} 
+.wrap {
+  flex-direction: column;
+}
+
+.titles {
+  background-color: dodgerblue;
+  padding-top: 200px;
+}
+#tags {
+  font-family: monospace;
+  background-color:darkgray;
+}
+#attributes {
+  font-family: monospace;
+  background-color:darkgray;
+}
+
+
